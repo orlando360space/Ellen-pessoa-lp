@@ -188,11 +188,11 @@ button {
 /* ── Navbar ───────────────────────────────────────── */
 
 .navbar {
-  position: absolute;
+  position: fixed;
   top: 1.5rem;
   left: 50%;
   transform: translateX(-50%);
-  z-index: 20;
+  z-index: 100;
   width: calc(100% - 2rem);
   max-width: 80rem;
   display: flex;
@@ -1260,6 +1260,11 @@ button {
 .contact-title {
   font-size: 3rem;
   margin-bottom: 3rem;
+}
+
+.hero .btn-primary {
+  font-size: 0.92rem;
+  padding: 0.95rem 2.1rem;
 }
 
 .contact-section .btn-primary {
